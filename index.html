@@ -1,0 +1,44 @@
+<html> 
+<head> 
+<title> 
+    How to use the oninput event 
+</title> 
+<style> 
+    h1 { 
+        color: green; 
+    } 
+    h2 { 
+        color: blue; 
+    } 
+    h3 { 
+        color: red; 
+    } 
+    input { 
+        width: 500px; 
+        height: 50px; 
+        font-size: 20px; 
+    } 
+</style> 
+</head> 
+  
+<body> 
+    <h1> 
+        How to use the oninput event 
+    </h1> 
+    <h2> 
+        Type in the input field to see the oninput event in action 
+    </h2> 
+    <h3> 
+        The input field has a maximum length of 10 characters 
+    </h3> 
+  
+    <input type="text" oninput="myFunction()" maxlength="10"> 
+  
+    <script> 
+        function myFunction() { 
+            alert("The oninput event has been triggered"); 
+        } 
+    </script> 
+</body> 
+  
+</html>
